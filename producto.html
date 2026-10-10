@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pieza — RAÍCES DE PLATA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header id="hdr">
+  <div class="wrap nav">
+    <a href="index.html" class="brand">RAÍCES DE PLATA</a>
+    <nav class="nav-links" id="navlinks">
+      <a href="index.html">Inicio</a>
+      <a href="coleccion.html" class="active">Colección</a>
+      <a href="nosotros.html">Nosotros</a>
+      <a href="contacto.html">Contacto</a>
+      <a href="coleccion.html" class="nav-buy">Comprar</a>
+    </nav>
+    <button class="menu-btn" id="menuBtn" aria-label="Abrir menú" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+<div class="wrap">
+  <nav class="breadcrumb">
+    <a href="index.html">Inicio</a><span class="sep">/</span>
+    <a href="coleccion.html">Colección</a><span class="sep">/</span>
+    <span id="breadcrumb-name">Pieza</span>
+  </nav>
+</div>
+
+<section class="product">
+  <div class="wrap">
+    <div class="product-grid" id="ficha"><!-- se llena con js/producto.js --></div>
+  </div>
+</section>
+
+<section class="related">
+  <div class="wrap">
+    <h2>También te puede gustar</h2>
+    <div class="grid" id="relacionadas"><!-- se llena con js/producto.js --></div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-top">
+      <div class="foot-about">
+        <div class="foot-brand">RAÍCES DE PLATA</div>
+        <p>Joyería de plata .925 hecha a mano en México. Piezas de autor pensadas para durar generaciones.</p>
+      </div>
+      <div class="foot-cols">
+        <div class="foot-col"><h5>Tienda</h5><a href="coleccion.html">Colección</a><a href="coleccion.html">Novedades</a><a href="contacto.html">Pedidos a medida</a></div>
+        <div class="foot-col"><h5>La casa</h5><a href="nosotros.html">Nosotros</a><a href="nosotros.html#taller">El taller</a><a href="contacto.html">Contacto</a></div>
+        <div class="foot-col"><h5>Síguenos</h5><a href="#">Instagram</a><a href="#">Facebook</a><a href="#">WhatsApp</a></div>
+      </div>
+    </div>
+    <div class="foot-bot"><span>© 2026 Raíces de Plata. Maqueta de demostración.</span><span>Hecho a mano en Puebla, México.</span></div>
+  </div>
+</footer>
+
+<script src="js/productos.js"></script>
+<script src="js/main.js"></script>
+<script src="js/producto.js"></script>
+</body>
+</html>
